@@ -1,10 +1,10 @@
-import config from '../../utils/config.js';
+import config from '../utils/config.js';
 import {
   getAttributesExcept,
   getPeopleQueryOrder,
   isValidPage,
   isValidRowsPerPage,
-} from '../../utils/helpers.js';
+} from '../utils/helpers.js';
 import Person from '../models/Person.js';
 
 /*

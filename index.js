@@ -3,7 +3,7 @@ import express from 'express';
 import cors from 'cors';
 
 import './src/services/db.js';
-import config from './utils/config.js';
+import config from './src/utils/config.js';
 import handleError from './src/middleware/handleError.js';
 import userRoutes from './src/routes/userRoutes.js';
 import personRoutes from './src/routes/personRoutes.js';

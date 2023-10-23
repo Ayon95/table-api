@@ -1,4 +1,4 @@
-import sequelize from '../src/services/db.js';
+import sequelize from '../services/db.js';
 
 export function getAttributesExcept(model, excludedAttributes) {
   const allAttributes = Object.keys(model.getAttributes());

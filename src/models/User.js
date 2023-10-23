@@ -1,6 +1,6 @@
 import { DataTypes } from 'sequelize';
 import sequelize from '../services/db.js';
-import config from '../../utils/config.js';
+import config from '../utils/config.js';
 
 const User = sequelize.define('User', {
   email: {

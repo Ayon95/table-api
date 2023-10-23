@@ -1,8 +1,8 @@
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import User from '../models/User.js';
-import { AuthError, BadRequestError } from '../../utils/errors.js';
-import config from '../../utils/config.js';
+import { AuthError, BadRequestError } from '../utils/errors.js';
+import config from '../utils/config.js';
 
 export async function login(req, res, next) {
   try {
